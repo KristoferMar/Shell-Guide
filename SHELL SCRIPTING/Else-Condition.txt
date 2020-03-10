@@ -1,0 +1,15 @@
+!# /bin/bash
+
+read -p "How old are you?" age
+
+if[ $age -gt 100]; then
+    echo "you are not very young"
+elif [ $age == "3" ]; then
+    echo "you are very young
+elif [ $age == "4" ]; then
+    echo "you are 4 years young
+else
+    echo "You are still very young"
+fi
+
+echo "bye"

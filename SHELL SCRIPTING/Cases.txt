@@ -1,0 +1,39 @@
+#! /bin/bash
+
+echo "select an option ..."
+
+read choice
+case $choice in 
+    1)
+        echo " You choose A ";;
+    2)
+        echo " You choose B ";;
+    3)
+        echo " You choose C ";;
+    4)
+        echo " You choose D ";;
+    *)
+        echo " none of the above "
+esac
+
+# Another senario - You can chech for other than just numbers.
+read car
+case $car in 
+    "hello")
+        echo " You choose A ";;
+    # Checks for it it is a txt file.
+    *".txt")
+        echo " This is a .txt file ";;
+    [0-9])
+        echo " You typed a number";;
+    [a-z])
+        echo " You typed any letter between a-z ";;
+    1[1-8])
+    # Means 11 - 18
+        echo " You typed any number between 11 - 18 ";;
+    1[1-8] | [1-3])
+    # Means 11 - 18
+        echo " You typed any number between 11 - 18 or 1 - 3";;
+    *)
+        echo " none of the above "
+esac

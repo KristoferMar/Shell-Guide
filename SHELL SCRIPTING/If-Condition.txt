@@ -1,0 +1,81 @@
+#! /bin/bash
+
+echo "hello ..."
+
+# If the condition is not true then the echo inside will not be executed
+if [ 3 -eq 3]; then
+    echo "yes they are the same"
+fi
+
+echo "Continue with your program"
+echo "bye"
+
+# Below we find the if rules.
+# 3 -eq 3     3 = 3 
+# 3 -ne 4     3 is not 4 
+# 3 -gt 1     3 > 1 
+# 3 -lt 7     3 < 7 
+
+# 3 -ge 3     3 >= 3 
+# 3 -le 3     3 <= 3 
+
+
+# Compare strings - this is case sensetive.
+if [ "abcd" == "abcd" ]; then
+    echo "EQUAL"
+fi
+
+echo "moving on";
+
+
+# Check for empty string 
+read -p "Type something: " str
+if [ -z "$str" ]; then
+    echo "this is an emtpy string"
+    exit
+fi
+
+echo "moving on";
+
+
+# IF on files
+# Condition to check if a file EXISTS
+myfile=new.txt
+if [ -e $myfile ]; then
+    echo " $myfile EXISTS "
+fi
+
+# NEGATE A Condition
+if [ ! -e $myfile ]; then
+    echo " $myfile Does Not EXIST "
+fi
+
+# Condition to check if a file is a Directory
+if [ -d $myfile ]; then
+    echo " $myfile is a directory "
+fi
+
+# Condition to check if a file is READABLE
+if [ -r $myfile ]; then
+    echo " $myfile is readable "
+fi
+
+# Condition to check if a file is WRITABLE
+if [ -w $myfile ]; then
+    echo " $myfile is writable "
+fi
+
+# Condition to check if a file is executable
+if [ -x $myfile ]; then
+    echo " $myfile is writable "
+fi
+
+# Condition to check if a file is NOT EMPTY
+if [ -s $myfile ]; then
+    echo " $myfile is writable "
+fi
+
+# Condition to check if a file is a reagular file
+if [ -f $myfile ]; then
+    echo " $myfile is a regular file "
+fi

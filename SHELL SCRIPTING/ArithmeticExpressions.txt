@@ -1,0 +1,24 @@
+#! /bin/bash
+
+number1=10
+number2=20
+
+echo " SUM $(( number1 + number2)) "
+echo " PRODUCT $(( number1 * number2)) "
+echo " DIVISION $(( number1 / number2)) "
+echo " REMINDER $(( number1 % number2)) "
+
+#Three to the power of two
+echo " POWER $(( 3**2)) "
+
+number1=$(( $number1 + 1))
+echo "variable now is $number1"
+
+# You can encrease and decrease a variable with x++ or x--
+
+# Fast ways to edit variable
+number3=10
+number3=$((number3 + 3))
+echo "value = $number3"
+
+echo "ADD: $((number$+=3)) "

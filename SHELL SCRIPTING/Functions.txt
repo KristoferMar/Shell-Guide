@@ -1,0 +1,59 @@
+#! /bin/bash
+
+echo "start here"
+
+echo "todat is: "
+    date
+echo "have a nice day!"
+
+echo "move on ..."
+
+
+# This is how we create a function
+mydate() {
+    echo "today is: "
+        date
+    echo "have a nice day!"
+}
+
+echo "start here"
+
+# Function is called
+mydate
+
+echo "move on ..."
+
+
+
+# This is how we create a function with parameters
+# $1 refers to the first input value and so on..
+hello2() {
+    echo "hello $1"
+    echo "hello also to $2"
+    # return 35 - This would be possible to give specific returning error value
+}
+
+echo "start here"
+
+hello2 "mark" "secondInput"
+
+echo "return value of my function is $? "
+
+echo "move on ..."
+
+
+# Valriable scope
+# Variables are global scoped.
+# To create a local variable we add "local" in front.
+myfunction() {
+    local var1="Eggs"
+    var2="Salad"
+
+    echo "my variable inside the funct is: $var1"
+}
+
+echo "start the program"
+
+myfunction
+
+echo "Outside : $var1"

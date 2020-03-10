@@ -1,0 +1,29 @@
+#! /bin/bash
+
+# Basic for-loop example below
+echo " some lines of code here "
+
+for i in {1..8}
+do 
+    echo "hello this is the number $i"
+done
+
+echo "We continue ..."
+
+# Basic for-loop example below - breaks on danger
+for i in {1, "dog", -5, "danger", -94}
+do 
+    echo "hello this is the number $i"
+    if [ $i == "danger" ]; then
+        echo "* We have to stop the loop"
+        break
+    fi
+done
+echo "We continue ..."
+
+# Loop on files in our directory
+for i in ./*
+do 
+    echo "name of file is : $i"
+done
+echo "We continue ..."
