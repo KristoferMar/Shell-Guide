@@ -1,0 +1,40 @@
+#! /bin/bash
+
+# Loops through all folders.
+for i in $(find . -type d);
+do 
+    echo "this is the folder: $i "
+
+if [ $i != "./hot-folder" ]; then
+
+    echo "********* FOLDER $i ************"
+
+    # Loop that goes through the files
+    for myfile in $i/* ;
+    do 
+
+        if [ -f "$myfile" ]; then
+            echo "the filde inside is: $myfile"
+            # Find some file including "spo" in it.
+            # grep -ni "spo" "$myfile"
+            check=$(grep -ni "spo" "$myfile")
+            if [ -z $check ]; then
+                echo "EMPTY"
+            else 
+                echo "FOUND!"
+                name_f=$(basename $myfile)
+                cp "$myfile" ./hot-folder/"name_f"
+                echo " " >> hot-folder/"$name_f"
+                echo "******" >> hot-folder/"$name_f"
+                echo "$check" >> hot-folder/"$name_f"
+            fi
+
+        # DO WHATEVER YOU WANT HERE ...
+        # (BUT BE CAREFULL !!!)
+
+        fi
+    done
+    echo "------------"
+    echo " "
+fi
+done
