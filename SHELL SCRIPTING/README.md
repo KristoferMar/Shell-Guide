@@ -1,5 +1,8 @@
 # Shell Scripting - detailed
 
+Following website is usefull for correct shell syntax <br>
+https://www.shellcheck.net/ <br>
+
 ## Arithmetic Expressions
 - Aritmetic expression are mathematical operations 
 - Examples on how to create Arithmetic Expressions can be found in the project.
