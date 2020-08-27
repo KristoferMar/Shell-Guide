@@ -82,5 +82,5 @@ List everything inside folders recursivly <br>
 
 <br>
 <h4>Search for data</h4>
-<p>Search recursively for any file from current directory</p><br>
+<p>Search recursively for any file from current directory</p>
 <i>find . -name "*.java"</i><br>
