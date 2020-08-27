@@ -79,3 +79,8 @@ Remove a folder and everything inside it. <br>
 <b>rm -R A2-folder/ </b>
 List everything inside folders recursivly <br>
 <b>ls -R .</b>
+
+<br>
+<h4>Search for data</h4>
+<p>Search recursively for any file from current directory</p><br>
+<i>find . -name "*.java"</i><br>
