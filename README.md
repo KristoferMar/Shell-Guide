@@ -77,7 +77,7 @@ Copy a directory full of stuff (-R means recursivly) <br>
 <b> cp -R A-folder/ A2-folder </b>
 Remove a folder and everything inside it. <br>
 <b>rm -R A2-folder/ </b><br>
-<p>List everything inside folders recursivly</p> <br>
+List everything inside folders recursivly<br>
 <i>ls -R .</i>
 
 <br>
