@@ -87,4 +87,6 @@ List everything inside folders recursivly<br>
 <p>Search recursively for any file from current directory</p>
 <i>find . -name "*.java"</i><br>
 
-<h3>
+<h3>Scp</h3>
+Copy file from server to localhost.<br>
+<i>scp username@remote:"Path on server" "Path location"</i> <br><br>
