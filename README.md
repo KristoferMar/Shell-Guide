@@ -89,7 +89,7 @@ List everything inside folders recursivly<br>
 
 <h3>Scp</h3>
 Copy file from remotehost to localhost.<br>
-<i>scp username@remote:"Path on server" "Path location"</i> <br><br>
+<i>scp username@remote:'Path on server' 'Path location'</i> <br><br>
 
 Copy file from localhost to remotehost<br>
-<i>scp "file" username@remote:"path of placement"</i> <br><br>
+<i>scp 'file' username@remote:'path of placement'</i> <br><br>
