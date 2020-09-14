@@ -21,12 +21,14 @@ Tells you who you are (current user) <br>
 <b>whoami</b> <br>
 
 Information about current directory <br>
-<b>pwd</b>
+<b>pwd</b><br>
 
 Gives you list of files in directory (add -a to see hidden files) <br>
-<b>ls</b> <br>
-<p>Gives you detailed information about your files with filesize.</p><br>
-<i>ls -l</i> <br>
+<b>ls</b><br>
+
+Gives you detailed information about your files with filesize.<br>
+<i>ls -l</i><br>
+
 Gives you list for specific file (destktop) <br>
 <b>ls Desktop</b>
 Gives you detailed list of a directory (desktop) <br>
