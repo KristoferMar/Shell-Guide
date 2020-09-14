@@ -25,8 +25,8 @@ Information about current directory <br>
 
 Gives you list of files in directory (add -a to see hidden files) <br>
 <b>ls</b> <br>
-Gives you detailed information about your files.<br>
-<b>ls -l</b>
+<p>Gives you detailed information about your files with filesize.</p><br>
+<i>ls -l</i> <br>
 Gives you list for specific file (destktop) <br>
 <b>ls Desktop</b>
 Gives you detailed list of a directory (desktop) <br>
