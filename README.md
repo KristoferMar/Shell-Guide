@@ -1,6 +1,9 @@
 # Shell-Guide
 Shell Scripting explained and teached in detail.
 
+Syntax correction can be done with: <br>
+https://www.shellcheck.net/
+
 # Terminal shell commands
 - We use commands in the terminal and a "Command" is a line that tells the terminal to perform an action. eg "date" gives you the current date.
 
