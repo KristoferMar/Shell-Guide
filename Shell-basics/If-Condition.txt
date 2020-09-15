@@ -3,7 +3,7 @@
 echo "hello ..."
 
 # If the condition is not true then the echo inside will not be executed
-if [ 3 -eq 3]; then
+if [ 3 -eq 3 ]; then
     echo "yes they are the same"
 fi
 
