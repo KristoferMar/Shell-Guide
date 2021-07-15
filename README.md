@@ -105,3 +105,6 @@ Copy file from localhost to remotehost<br>
 
 <h3>For loops</h3>
 https://github.com/KristoferMar/Shell-Guide/blob/master/Shell-basics/ForLoops.txt
+
+<h3>Arrays </h3>
+https://github.com/KristoferMar/Shell-Guide/blob/master/Shell-basics/Array.sh
