@@ -1,6 +1,15 @@
 # Shell-Guide
 Shell Scripting explained and teached in detail.
 
+Syntax correction can be done with: <br>
+https://www.shellcheck.net/
+
+<h2>Scripting basics</h2>
+The basics such as if-else, loops etc. <br>
+<a href="https://github.com/KristoferMar/Shell-Guide/tree/master/Shell-basics" target="_blank">https://github.com/KristoferMar/Shell-Guide/tree/master/Shell-basics</a><br>
+
+
+<br>
 # Terminal shell commands
 - We use commands in the terminal and a "Command" is a line that tells the terminal to perform an action. eg "date" gives you the current date.
 
